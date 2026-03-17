@@ -707,6 +707,24 @@
 											"height": 13,
 											"text": "-dateCommande: LocalDate",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGc+6K7Irhk2C0=",
+											"_parent": {
+												"$ref": "AAAAAAGc9iFWoIot/Nw="
+											},
+											"model": {
+												"$ref": "AAAAAAGc+6K7F7hhfnc="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 37,
+											"top": 364,
+											"width": 215,
+											"height": 13,
+											"text": "-statut: StatutCommande",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -714,7 +732,7 @@
 									"left": 32,
 									"top": 329,
 									"width": 225,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -728,7 +746,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 32,
-									"top": 367,
+									"top": 382,
 									"width": 225,
 									"height": 10
 								},
@@ -2341,6 +2359,18 @@
 							"name": "dateCommande",
 							"visibility": "private",
 							"type": "LocalDate"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGc+6K7F7hhfnc=",
+							"_parent": {
+								"$ref": "AAAAAAGc9iFWn4olGZU="
+							},
+							"name": "statut",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGc9xHgSh32YaA="
+							}
 						}
 					]
 				},
